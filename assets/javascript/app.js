@@ -137,6 +137,8 @@ $(document).ready(function () {
     $(document).on("click", "#restart", function() {
         
         $("#box").css("display", "none");
+        correctNum = 0;
+        incorrectNum = 0;
         questionNum = 0;
         questions[questionNum]();
 
